@@ -35,13 +35,17 @@ ul {
     line-height: 20px;
     font-size: 22px;
 }
-@media(min-width:760px){
+@media(min-width:768px){
     .continer {
         background-color: #0e90e7;
         width: 750px;
         margin: 0 auto;
 
     }  
+
+    nav.navbar li {
+        display: inline-block;
+    }
 }
  @media(min-width: 992px){
      .continer {
