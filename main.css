@@ -8,6 +8,33 @@ body{
     min-height: 300px;
 }
 
+nav.navbar {
+    background-color: red;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    
+}
+
+nav.navbar a {
+    font-size: 26px;
+    text-decoration: none;
+    color: black;
+
+}
+
+nav.navbar li {
+    margin-bottom: 10px; border-color: blue;
+    
+}
+nav.navbar li:last-child {
+    border-bottom: none;
+}
+ul {
+    text-align: center;
+    line-height: 20px;
+    font-size: 22px;
+}
 @media(min-width:760px){
     .continer {
         background-color: #0e90e7;
