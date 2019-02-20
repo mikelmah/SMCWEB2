@@ -1,0 +1,10 @@
+.continer {
+    background-color: salmon;
+}
+
+@media(min-width:760px){
+
+    .continer {
+        background-color: blue;
+    }  
+}
