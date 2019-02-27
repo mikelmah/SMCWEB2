@@ -3,9 +3,10 @@ body {
 }
 h1 {
     text-align: center;
+    margin:2px;
 }
 p.firsttext  {
-    padding: 1px 10px;
+    margin: 5px 15px;
 
 }
 
@@ -35,6 +36,10 @@ nav.navbar li {
 }
 nav.navbar li:last-child {
     border-bottom: none;
+}
+.active {
+    
+    color: yellow;
 }
 nav.navbar a {
     font-size: 22px;
