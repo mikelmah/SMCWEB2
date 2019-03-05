@@ -1,6 +1,12 @@
 .container {
     background-color: gray;
 }
+.floater-section {
+    float: left;
+    width: 100%;
+    min-height: 250px;
+    margin-bottom: 10px;
+}
 .red {
     background-color: red;
 }
@@ -22,8 +28,51 @@
 }
 
 /*****small screen********/
+@media (min-width: 450px){
+    .small-width-25 {
+        width: 25%;
+    }
+    .small-width-33 {
+        width: 33.333%;
+    }
+    .small-width-50 {
+        width: 50%;
+    }
+    .small-width-100 {
+        width: 100%;
+    }
 
+}
 /*****medium screen********/
-
+@media (min-width: 768px){
+    .medium-width-25 {
+        width: 25%;
+    }
+    .medium-width-33 {
+        width: 33.333%;
+    }
+    .medium-width-50 {
+        width: 50%;
+    }
+    .medium-width-100 {
+        width: 100%;
+    }
+}
 /*****larg screen********/
-
+@media (min-width: 992px){
+    .larg-width-25 {
+        width: 25%;
+    }
+    .larg-width-33 {
+        width: 33.333%;
+    }
+    .larg-width-50 {
+        width: 50%;
+    }
+    .larg-width-100 {
+        width: 100%;
+    }
+    .larg-height-400 {
+        height: 400px;
+    }
+}
