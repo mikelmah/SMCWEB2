@@ -32,7 +32,12 @@ h1 {
 .black {
     background-color: darkslategrey;
 }
-
+.lightgreen {
+    background-color: lightgreen;
+}
+.darkpink {
+    background-color: darkorchid;
+}
 /*****small screen********/
 @media (min-width: 450px){
     .small-width-25 {
