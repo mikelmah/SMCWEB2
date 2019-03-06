@@ -7,6 +7,9 @@
     min-height: 250px;
     margin-bottom: 10px;
 }
+h1 {
+    text-align: center;
+}
 .red {
     background-color: red;
 }
@@ -25,6 +28,9 @@
 .pink {
     background-color: pink;
 
+}
+.black {
+    background-color: darkslategrey;
 }
 
 /*****small screen********/
