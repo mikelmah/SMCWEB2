@@ -1,15 +1,6 @@
 .container {
     background-color: gray;
 }
-.floater-section {
-    float: left;
-    width: 100%;
-    min-height: 250px;
-    margin-bottom: 10px;
-}
-h1 {
-    text-align: center;
-}
 .red {
     background-color: red;
 }
