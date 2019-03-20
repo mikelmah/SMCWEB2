@@ -3,32 +3,32 @@
     margin:auto;
 }
 .red {
-    background-color: red;
+    background-color: rgba(236, 220, 98, 0.973);
 }
 .blue {
-    background-color: blue;
+    background-color: rgba(236, 220, 98, 0.973);
 }
 .yellow {
-    background-color: yellow;
+    background-color: rgba(236, 220, 98, 0.973);
 }
 .lightblue {
     background-color: lightblue;
 }
 .green {
-    background-color: green;
+    background-color: lightblue;
 }
 .pink {
-    background-color: pink;
+    background-color: lightblue;
 
 }
 .black {
-    background-color: darkslategrey;
+    background-color: lightblue;
 }
 .lightgreen {
     background-color: lightgreen;
 }
 .darkpink {
-    background-color: darkorchid;
+    background-color: lightgreen;
 }
 /*****small screen********/
 @media (min-width: 450px){
