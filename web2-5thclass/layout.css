@@ -3,16 +3,16 @@
     margin:auto;
 }
 .red {
-    background-color: rgba(236, 220, 98, 0.973);
+    background-color: rgba(219, 215, 183, 0.973);
 }
 .blue {
-    background-color: rgba(236, 220, 98, 0.973);
+    background-color: rgba(207, 186, 141, 0.849);
 }
 .yellow {
-    background-color: rgba(236, 220, 98, 0.973);
+    background-color: rgba(236, 202, 143, 0.973);
 }
 .lightblue {
-    background-color: lightblue;
+    background-color: rgba(189, 187, 164, 0.849);
 }
 .green {
     background-color: lightblue;
