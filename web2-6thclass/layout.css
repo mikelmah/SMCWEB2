@@ -1,0 +1,81 @@
+.container {
+    background-color: gray;
+    margin:auto;
+}
+.red {
+    background-color: rgba(219, 215, 183, 0.973);
+}
+.blue {
+    background-color: rgba(207, 186, 141, 0.849);
+}
+.yellow {
+    background-color: rgba(236, 202, 143, 0.973);
+}
+.lightblue {
+    background-color: rgba(189, 187, 164, 0.849);
+}
+.green {
+    background-color: lightblue;
+}
+.pink {
+    background-color: lightblue;
+
+}
+.black {
+    background-color: lightblue;
+}
+.lightgreen {
+    background-color: lightgreen;
+}
+.darkpink {
+    background-color: lightgreen;
+}
+/*****small screen********/
+@media (min-width: 450px){
+    .small-width-25 {
+        width: 25%;
+    }
+    .small-width-33 {
+        width: 33.333%;
+    }
+    .small-width-50 {
+        width: 50%;
+    }
+    .small-width-100 {
+        width: 100%;
+    }
+
+}
+/*****medium screen********/
+@media (min-width: 768px){
+    .medium-width-25 {
+        width: 25%;
+    }
+    .medium-width-33 {
+        width: 33.333%;
+    }
+    .medium-width-50 {
+        width: 50%;
+    }
+    .medium-width-100 {
+        width: 100%;
+    }
+}
+/*****larg screen********/
+@media (min-width: 992px){
+    .larg-width-25 {
+        width: 25%;
+    }
+    .larg-width-33 {
+        width: 33.333%;
+    }
+    .larg-width-50 {
+        width: 50%;
+    }
+    .larg-width-100 {
+        width: 100%;
+    }
+    .larg-height-400 {
+        height: 400px;
+    }
+}
