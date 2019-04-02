@@ -1,28 +1,48 @@
 .floater-section {
     float: left;
     width: 100%;
-    min-height: 250px;
-    margin-bottom: 10px;
+    min-height: 150px;
 }
-.content {
-    padding: 5px 5px;
-    min-height: 250px;
-    border: 4px solid black;
-    position: rlative;
-}
-.content img {
-    max-width: 100%; 
-}
-.content .image-holder {
+h1 {
+    text-align: left;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    padding: 0ex;
+    padding-left: 4ex;
     position: relative;
 }
 h2 {
-    text-align: left;
-    font-family: 'Dancing Script', cursive;
-}
-h1 {
     text-align: center;
+    font-family:'Playfair Display', serif;
+    font-size: 30vw;
+    color: white;
+    margin: 0px;
+    display: block;
 }
+p {
+    margin: 0px;
+    color: white;
+    margin-right: 5ex;
+    margin-top: -2ex;
+    font-family:'Playfair Display', serif;
+    font-size: 4.5vw;
+    display: block;
+    float: right;
+}
+#HomeC {
+    float: left;
+    margin-left: 42.5vw;
+    margin-top: 9ex;
+    position: fixed;
+
+}
+#RichWich {
+    float: right;
+    margin-right: 2ex;
+    font-size: 3.7ex;
+    margin-top: 6ex;
+}
+
 /*** font families: 
 font-family: 'Dancing Script', cursive;
 font-family: 'Playfair Display', serif;

@@ -2,12 +2,6 @@
     background-color: #8c1610;
     margin:auto;
 }
-.red {
-    background-color: rgba(219, 215, 183, 0.973);
-}
-.blue {
-    background-color: rgba(207, 186, 141, 0.849);
-}
 .clearfix {
     clear: both;
 }
