@@ -19,7 +19,24 @@ h2 {
     margin: 0px;
     display: block;
 }
+.menu-title {
+    float: left;
+    margin-left: 0.5ex;
+}
 p {
+    text-align: center;
+    margin: 0px;
+    color: white;
+    margin-right: 5ex;
+    font-family:'Sree Krushnadevaraya', serif;
+    font-size: 2.5e;
+    display: inline;
+   
+}
+#MenuP {
+    margin-left: 1ex;
+}
+.home-p {
     margin: 0px;
     color: white;
     margin-right: 5ex;
@@ -34,7 +51,10 @@ p {
     margin-left: 42.5vw;
     margin-top: 9ex;
     position: fixed;
-
+}
+#MenuC {
+    margin-left: 4ex;
+    margin-top: 3ex;
 }
 #RichWich {
     float: right;
