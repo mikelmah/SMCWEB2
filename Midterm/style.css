@@ -19,6 +19,18 @@ h2 {
     margin: 0px;
     display: block;
 }
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 22vw;
+    color: white;
+    margin: 0em;
+    margin-right: 0.6ex;
+    padding-top: 12px;
+    float: right;
+}
+.last-child {
+    padding-right: 4px;
+}
 .menu-title {
     float: left;
     margin-left: 0.5ex;
@@ -55,6 +67,10 @@ p {
 #MenuC {
     margin-left: 4ex;
     margin-top: 3ex;
+}
+#MenuDown {
+    margin-left: 3em;
+    margin-top: 3em;
 }
 #RichWich {
     float: right;
