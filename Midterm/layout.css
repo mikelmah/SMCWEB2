@@ -1,5 +1,5 @@
 .container {
-    background-color: rgb(153, 219, 181);
+    background-color: #8c1610;
     margin:auto;
 }
 .red {
@@ -8,30 +8,14 @@
 .blue {
     background-color: rgba(207, 186, 141, 0.849);
 }
-.yellow {
-    background-color: rgba(236, 202, 143, 0.973);
-}
-.lightblue {
-    background-color: rgba(189, 187, 164, 0.849);
-}
-.green {
-    background-color: lightblue;
-}
-.pink {
-    background-color: lightblue;
-
-}
-.black {
-    background-color: lightblue;
-}
-.lightgreen {
-    background-color: lightgreen;
-}
-.darkpink {
-    background-color: lightgreen;
-}
 .clearfix {
     clear: both;
+}
+/*****default screen******/
+@media (min-width: 200px){
+    .default-width-50 {
+        width: 50%;
+    }
 }
 /*****small screen********/
 @media (min-width: 450px){
@@ -81,7 +65,4 @@
     .larg-height-400 {
         height: 400px;
     }
-}
-.clearfix {
-    clear: both;
 }
