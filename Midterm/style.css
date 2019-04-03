@@ -58,6 +58,11 @@ p {
     display: block;
     float: right;
 }
+.contact-p {
+    display: block;
+    font-size: 1.3em;
+    float: none;
+}
 #HomeC {
     float: left;
     margin-left: 42.5vw;
@@ -68,6 +73,11 @@ p {
     margin-left: 4ex;
     margin-top: 3ex;
 }
+#ContactC {
+    float: right;
+    padding-right: 2em;
+    padding-top: 1em;
+}
 #MenuDown {
     margin-left: 3em;
     margin-top: 3em;
@@ -77,6 +87,31 @@ p {
     margin-right: 2ex;
     font-size: 3.7ex;
     margin-top: 6ex;
+}
+/*** form ***/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    resize: vertical;
+  }
+input[type=done] {
+  background-color:#8c1610;
+  color: white;
+  padding: 10px 15px;
+  border: solid red;
+  border-radius: 5px;
+}
+.form-holder {
+  font-family: 'Sree Krushnadevaraya', serif;
+  border-radius: 5px;
+  background-color: #8c1610;
+  padding: 10px;
+  color: white;
 }
 
 /*** font families: 
