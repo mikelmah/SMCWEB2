@@ -21,7 +21,7 @@
                   <option value="Green">GREEN</option>
                   <option value="Yellow">YELLOW</option>
                 </select>
-                <p id="demo"></p>
+                
                 <script>
                 document.getElementById("p2").style.color = "blue";
                 function myFunction() {
@@ -31,9 +31,9 @@
                 </script>
         </div>
         <div class="container">
-            <h2>Button Styles</h2>
-            <button type="button" class="btn btn-success">action 1</button>
-            <button type="button" class="btn btn-success">action 2</button>      
+            <h2 id="ColorChange">action buttons!</h2>
+            <button type="button" class="btn btn-success" onclick="document.getElementById('ColorChange').style.color = 'red'">I LIKE RED!</button>
+            <button type="button" class="btn btn-success" onclick="document.getElementById('ColorChange').style.color = 'blue'">I LIKE BLUE!</button>      
           </div>
     </main>
     
