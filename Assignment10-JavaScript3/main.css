@@ -1,7 +1,7 @@
 nav ul {
     padding: 0px;
     list-style: none;
-    background-color: cornflowerblue;
+    background-color: gray;
 }
 
 nav>ul>li {
@@ -10,7 +10,7 @@ nav>ul>li {
 
 nav ul li ul {
     padding-left: 40px;
-    background-color: dodgerblue;
+    background-color: darkgreen;
 
 }
 
@@ -24,7 +24,7 @@ nav ul li ul {
     nav ul li ul {
         display: none;
         position: absolute;
-        background-color: dodgerblue;
+        background-color: darkgreen;
         left: 34px;
         top: 59px;
     }

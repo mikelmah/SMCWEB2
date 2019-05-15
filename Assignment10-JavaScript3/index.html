@@ -11,41 +11,21 @@
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="">Link1</a>
-                </li>
-                <li>
-                    <a href="">Link1</a>
-                </li>
-                <li>
-                    <a href="">Link1</a>
-                    <ul>
-                        <li>Sublink1</li>
-                        <li>Sublink1</li>
-                        <li>Sublink1</li>
-                    </ul>
-                </li>
-
-            </ul>
-        </nav>
+        
     </header>
 
     <main>
-        <h1>Which car would you like to test:</h1>
+        <h1>select one</h1>
 
         <form action="" method="POST">
-            <label for="carMake">Car Make:</label>
-            <select name="make" id="carMake">
-                <option value="audi">Audi</option>
-                <option value="bmw">BMW</option>
-                <option value="merc">Mercedes</option>
-                <option value="porsche">Porsche</option>
+            <label for="veggie">Vegetables:</label>
+            <select name="make" id="veggie">
+                <option value="veggies">veggies</option>
+                <option value="fruites">fruites</option>
             </select>
 
-            <label for="carModel">Model</label>
-            <select name="model" id="carModel"></select>
+            <label for="veggie">Greens</label>
+            <select name="Greens" id="veggie"></select>
         </form>
     </main>
 
@@ -53,8 +33,6 @@
     <script>
         var audiModels      = ["S3", "S5", "S7"];
         var bmwModels       = ["Series-3", "Series-4", "Series-5", "Series-7"];
-        var mercModels      = ["C-class", "E-class", "S-class"];
-        var porscheModels   = ["911", "Macan", "Panamera", "Cayenne"];
         var makeDropdown = document.getElementById("carMake");
         var modelDropdown = document.getElementById("carModel");
         makeDropdown.addEventListener("change", function(){
