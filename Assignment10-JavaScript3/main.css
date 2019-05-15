@@ -1,0 +1,35 @@
+nav ul {
+    padding: 0px;
+    list-style: none;
+    background-color: cornflowerblue;
+}
+
+nav>ul>li {
+    padding: 20px 40px;
+}
+
+nav ul li ul {
+    padding-left: 40px;
+    background-color: dodgerblue;
+
+}
+
+@media(min-width: 768px){
+    nav ul>li {
+        display: inline-block;
+        position: relative;
+        padding: 20px 40px;
+    }
+
+    nav ul li ul {
+        display: none;
+        position: absolute;
+        background-color: dodgerblue;
+        left: 34px;
+        top: 59px;
+    }
+
+    nav ul li:hover ul {
+        display: block;
+    }
+}
