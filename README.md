@@ -1,1 +1,1 @@
-# SMCWEB2
+# SMCWEB2 assignments folder
