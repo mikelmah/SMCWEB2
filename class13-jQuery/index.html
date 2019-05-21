@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+
+</head>
+
+<body>
+    <img id="myImg" src="https://cdn1-production-images-kly.akamaized.net/_dLInk6dxE__4HAF0CpLyWj2VdM=/680x383/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2485949/original/066142700_1543329299-107584-20-resep-cara-membuat-donat-gampang-dan-sederhana-dijamin-enak-dan-empuk-125106.jpg" alt="Donat #1" style="width:100%;max-width:300px">
+
+    <img id="myImg2" src="https://sifu.unileversolutions.com/image/id-ID/recipe-topvisual/2/1260-709/donat-kentang-50321491.jpg" alt="Donat #2" style="width:100%;max-width:300px">
+
+    <img id="myImg3" src="https://media-cdn.tripadvisor.com/media/photo-s/0a/21/53/58/j-co-donuts.jpg" alt="Donat #3" style="width:100%;max-width:300px">
+
+    <img id="myImg4" src="https://awsimages.detik.net.id/community/media/visual/2018/10/02/796eab58-e336-4328-8580-94439579548b.jpeg?w=700&q=90" alt="Donat #4" style="width:100%;max-width:300px">
+
+    <img id="myImg5" src="https://www.resepkraton.com/wp-content/uploads/2018/12/Resep-Donat-Kentang-Tanpa-Telur.jpg" alt="Donat #5" style="width:100%;max-width:300px">
+
+    <img id="myImg6" src="http://www.tokomesin.com/wp-content/uploads/2017/09/3-Cara-Membuat-Donat-Kentang-Yang-Bisa-Dicoba-Di-Rumah.jpg" alt="Donat #6" style="width:100%;max-width:300px">
+
+<!-- The Modal -->
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+
+    var modal = document.getElementById("myModal");
+
+    var img = document.getElementById("myImg");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+
+    var img = document.getElementById("myImg2");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+
+    var img = document.getElementById("myImg3");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+
+    var img = document.getElementById("myImg4");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+
+    var img = document.getElementById("myImg5");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+
+    var img = document.getElementById("myImg6");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+        }
+
+    var span = document.getElementsByClassName("close")[0];
+
+    span.onclick = function() { 
+        modal.style.display = "none";
+    }
+</script>
+
+</body>
+</html>
