@@ -11,7 +11,8 @@
 
 <body>
 
-    <button>SHOW PICTURES</button>
+    <button id="showIt">SHOW GALLERY</button>
+    <button id="hideIt">HIDE GALLERY</button>
 
     <div class="container">
         <img id="myImg" src="https://cdn1-production-images-kly.akamaized.net/_dLInk6dxE__4HAF0CpLyWj2VdM=/680x383/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2485949/original/066142700_1543329299-107584-20-resep-cara-membuat-donat-gampang-dan-sederhana-dijamin-enak-dan-empuk-125106.jpg" alt="Donat #1" style="width:100%;max-width:300px">
@@ -35,10 +36,14 @@
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script>
         $(document).ready(function(){
-        $("button").click(function(){
+        $("#showIt").click(function(){
         $(".container").fadeIn("slow");
     });
     });
+    $("#hideIt").click(function(){
+        $(".container").fadeOut("slow");
+    });
+
     var modal = document.getElementById("myModal");
 
     var img = document.getElementById("myImg");
