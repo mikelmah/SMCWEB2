@@ -1,5 +1,12 @@
 body {font-family: Helvetica, sans-serif;}
-        
+
+.container {
+  display: none;
+  width: 70%;
+  margin:5% auto;
+}
+
+
 #myImg {
   border-radius: 5px;
   cursor: pointer;
