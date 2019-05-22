@@ -1,5 +1,13 @@
 body {font-family: Helvetica, sans-serif;}
 
+ul {
+  list-style: none;
+  margin: auto;
+}
+
+li { 
+  padding-left: 40%; 
+}
 .container {
   display: none;
   width: 70%;
