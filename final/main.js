@@ -5,3 +5,5 @@ function openNav() {
   function closeNav() {
     document.getElementById("leftNav").style.width = "0%";
   }
+  
+//slideshow:
