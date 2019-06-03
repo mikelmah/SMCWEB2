@@ -4,6 +4,9 @@
     min-height: 250px;
     margin-bottom: 5px;
 }
+.image-holder{
+  margin-bottom: 20px;
+}
 /*animation home donate button */
 #Homebutton {
   position: relative;
@@ -222,6 +225,19 @@ input.invalid {
 .tab {
   display: none;
 }
+button {
+  background-color: #4CAF50;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+}
+
+#prevBtn {
+  background-color: #bbbbbb;
+}
 
 /* Make circles that indicate the steps of the form: */
 .step {
@@ -244,3 +260,4 @@ input.invalid {
 .step.finish {
   background-color: #4CAF50;
 }
+
