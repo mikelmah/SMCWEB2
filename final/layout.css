@@ -1,34 +1,34 @@
 .container {
-    background-color: rgb(153, 219, 181);
+    background-color: white;
     margin:auto;
 }
 .red {
-    background-color: rgba(219, 215, 183, 0.973);
+    background-color:  white;
 }
 .blue {
-    background-color: rgba(207, 186, 141, 0.849);
+    background-color:  white;
 }
 .yellow {
-    background-color: rgba(236, 202, 143, 0.973);
+    background-color:  white;
 }
 .lightblue {
-    background-color: rgba(189, 187, 164, 0.849);
+    background-color:  white;
 }
 .green {
-    background-color: lightblue;
+    background-color:  white;
 }
 .pink {
-    background-color: lightblue;
+    background-color:  white;
 
 }
 .black {
-    background-color: lightblue;
+    background-color:  white;
 }
 .lightgreen {
-    background-color: lightgreen;
+    background-color:  white;
 }
 .darkpink {
-    background-color: lightgreen;
+    background-color:  white;
 }
 .clearfix {
     clear: both;

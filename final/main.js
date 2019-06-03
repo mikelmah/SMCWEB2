@@ -6,4 +6,3 @@ function openNav() {
     document.getElementById("leftNav").style.width = "0%";
   }
   
-//slideshow:
