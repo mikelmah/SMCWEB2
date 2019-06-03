@@ -70,7 +70,7 @@
                                   <p><input placeholder="City..." oninput="this.className = ''"></p>
                                 </div>
                                 
-                                <div class="tab">Amount:
+                                <div class="tab">
                                   <input type="radio" name="amount" id="red"><b>$25</b><br>
                                   <input type="radio" name="amount" id="blue"><b>$35</b><br>
                                   <input type="radio" name="amount" id="red"><b>$55</b><br>
@@ -84,6 +84,7 @@
                                   <p><input placeholder="Exp Date... mm/yy" oninput="this.className = ''"></p>
                                   <p><input placeholder="Postal Code..." oninput="this.className = ''"></p>
                                   <p><input placeholder="Email..." oninput="this.className = ''"></p>
+                                  <p><input placeholder="Phone... (optional)" oninput="this.className = ''"></p>
                                 </div>
                         
                                 <div style="overflow:auto;">
@@ -95,7 +96,6 @@
                                 
                                 <!-- Circles which indicates the steps of the form: -->
                                 <div style="text-align:center;margin-top:40px;">
-                                  <span class="step"></span>
                                   <span class="step"></span>
                                   <span class="step"></span>
                                   <span class="step"></span>
@@ -192,6 +192,7 @@
                 // ... the form gets submitted:
                 document.getElementById("regForm").submit();
                 return false;
+                //>in class:>> $('form').submit(function(event){ event.preventDefault(); });
               }
               // Otherwise, display the correct tab:
               showTab(currentTab);
