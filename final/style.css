@@ -18,29 +18,23 @@
   position: relative;
 }
 /*gallery button home */
-#GalleryButton {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
+
 .gallery-container {
   display: none;
 }
 ul {
   list-style: none;
-  margin: 0px;
-  display: flex;
+  padding-left: 25%;
+  display: contents;
 }
 
 /* text and fonts*/
 h1 {
+  margin:5%;
   text-align: center;
+}
+.text-holder {
+  margin:5%;
 }
 
 .footer {
