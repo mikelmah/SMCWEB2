@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Reading To Kids - About</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../main.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../about.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../layout.css">
+    <script src="../main.js"></script>
+</head>
+<body>
+    <div class="container">
+            <!-- hamburger menu -->
+            <div id="leftNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                <a href="../index.html">Home</a>
+                <a href="donation.html">Donate</a>
+                <a href="blog.html">Blog</a>
+                <a href="about.html">About</a>
+                </div>
+            </div>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        <div class="red foater-section small-width-50">
+            <div class="content">
+                <!-- image gallery -->
+        <div class="slideshow-container">
+
+             <img id="myImg" src="../images/image1.jpg" alt="happy kids #6" style="width:100%;">
+             <img id="myImg2" src="../images/image2.jpg" alt="happy kids #1" style="width:50%;">
+             <img id="myImg3" src="../images/image3.png" alt="happy kids #3" style="width:50%;">
+             <img id="myImg4" src="../images/image4.jpg" alt="happy kids #4" style="width:50%;">
+             <img id="myImg5" src="../images/image5.jpg" alt="happy kids #5" style="width:50%;">
+            </div>
+        </div>
+        <div class="black foater-section small-width-50">
+                <div class="content">
+                    <div class="image-holder">
+    
+                     </div>
+    
+                </div>
+        </div>
+    <div class="blue foater-section small-width-50">
+            <div class="content">
+                <div class="image-holder">
+        
+                </div>
+        
+            </div>
+        </div>
+        <div class="yelllow foater-section small-width-50">
+                <div class="content">
+                    <div class="image-holder">
+            
+                    </div>
+            
+                </div>
+            </div>
+            <div class="green footer">
+                    <div class="content">
+                    <div class="image-holder">
+                
+                </div>
+                
+            </div>
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+    <script>
+            var slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 5000); // Change image every 2 seconds
+            }
+    </script>
+</body>
+</html>
