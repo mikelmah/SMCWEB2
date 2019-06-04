@@ -1,8 +1,9 @@
 .header {
   padding: 30px;
   font-size: 40px;
+  color: white;
   text-align: center;
-  background: white;
+  background: rgba(228, 108, 154, 0.9);
 }
 
 /* Create two unequal columns that floats next to each other */
@@ -19,11 +20,12 @@
   padding-left: 20px;
 }
 
-/* Fake image */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
+/* blog image */
+.blogimage {
+  width: 60vw;
+}
+.sideblogimage {
+  max-width: 90%;
 }
 
 /* Add a card effect for articles */

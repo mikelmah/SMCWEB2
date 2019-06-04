@@ -36,9 +36,12 @@ h1 {
 .text-holder {
   margin:5%;
 }
+h3 {
+  text-align: center;
+}
 
 .footer {
-  background-color: rgb(11, 150, 192)
+  background-color: rgb(11, 150, 192);
 }
 /*footer*/
 
