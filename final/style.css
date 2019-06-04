@@ -17,6 +17,27 @@
 .content .image-holder {
   position: relative;
 }
+/*gallery button home */
+#GalleryButton {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.gallery-container {
+  display: none;
+}
+ul {
+  list-style: none;
+  margin: 0px;
+  display: flex;
+}
+
 /* text and fonts*/
 h1 {
   text-align: center;
