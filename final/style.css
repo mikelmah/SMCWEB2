@@ -17,9 +17,11 @@
 .content .image-holder {
   position: relative;
 }
+/* text and fonts*/
 h1 {
   text-align: center;
 }
+
 .footer {
   background-color: rgb(11, 150, 192)
 }
