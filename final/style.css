@@ -4,6 +4,11 @@
     height: auto;
     margin-bottom: 5px;
 }
+.navbar-brand {
+  width: 10vw;
+  margin: 0px;
+  padding: 0px;
+}
 .content {
   padding: 5px;
   /*border: 1px solid black;*/
