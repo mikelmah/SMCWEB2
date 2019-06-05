@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Reading To Kids - About</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Da&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="../main.css">
     <link rel="stylesheet" type="text/css" media="screen" href="../style.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="../layout.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../blog.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="../main.js"></script>
 </head>
@@ -22,36 +23,47 @@
                 <a href="blog.html">Blog</a>
                 <a href="about.html">About</a>
                 <a href="gallery.html">Gallery</a>
-                </div>
+            </div>
             </div>
             <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-        <div class="red foater-section small-width-50">
-            <div class="content">
-                
-        <div class="black foater-section small-width-50">
-                <div class="content">
-                    <div class="image-holder">
-    
-                     </div>
-    
-                </div>
-        </div>
-    <div class="blue foater-section small-width-50">
-            <div class="content">
-                <div class="image-holder">
         
-                </div>
+                <div class="header">
+                        <h4 class="title">About Us!</h4>
+                      </div>
+                       <div class="row">
+                        <div class="leftcolumn">
+                          <div class="card">
+                            <h2>Reading to Kids is a grassroots organization</h2>
+                        
+                            
+                            <iframe width="330" height="186" src="https://www.youtube.com/embed/2H7faKIcdHs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                            </iframe>
+                            <h5>Play video that explains what to expect at your first reading club.</h5>
+                            <p>Reading to Kids is a grassroots organization dedicated to inspiring underserved children with a love of reading, thereby enriching their lives and opportunities for success in the future. 
+                                 To this end, Reading to Kids gathers on average 601 children and 322 volunteers at reading clubs on the second Saturday of every month at eight Los Angeles elementary schools.
+                                </p>
+                            <p>At the monthly reading clubs, pairs of volunteers read aloud to small groups of children, while their parents receive training on how to encourage their children to read at home.  
+                                Kids, parents, teachers, and school libraries receive book donations at the end of the reading clubs.  These are important donations, as 60 percent of low-income homes do not have age-appropriate reading materials for children.</p>
+                                <div>
+                                    <img class="blogimage" src="http://readingtokids.org/r2k/images/Read001r.jpg" alt="staff- red nose day">
+                            <p>Since its inception in 1999, Reading to Kids has given 172,633 prize books to children who attend the reading clubs, donated 31,770 hardcover books to school libraries, and our volunteers have 
+                                spent more than 212,070 hours reading to kids.  Click here to see our entry on Wikipedia. 
+                            </p>
+                            <p>Reading to Kids is incorporated as a nonprofit corporation under the laws of the state of California and has been classified as an organization described in section 501(c)(3) of the federal Internal Revenue Code. 
+                                The organization is exempt from both state and federal taxes; our tax ID number is 95-4758698. 
+                            </p>
+                                </div>
+                       
+                            </div>
+                        
+                          <div class="card center">
+                            <h2>Follow Us</h2>
+                            <a href="http://feeds.feedburner.com/readingtokids"><img src="http://www.feedburner.com/fb/images/pub/feed-icon32x32.png" alt="subscribe to our feed"></a>
+                          </div>
+                        </div>
+                      </div>
         
-            </div>
-        </div>
-        <div class="yelllow foater-section small-width-50">
-                <div class="content">
-                    <div class="image-holder">
-            
-                    </div>
-            
-                </div>
-            </div>
+    </div>
             <div class="green floater-section footer">
                     <div class="content center">
                         <!-- Add font awesome icons -->
@@ -69,26 +81,5 @@
                 </div>
         <div class="clearfix"> </div>
     </div>
-    <script>
-            var slideIndex = 0;
-            showSlides();
-            
-            function showSlides() {
-              var i;
-              var slides = document.getElementsByClassName("mySlides");
-              var dots = document.getElementsByClassName("dot");
-              for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";  
-              }
-              slideIndex++;
-              if (slideIndex > slides.length) {slideIndex = 1}    
-              for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-              }
-              slides[slideIndex-1].style.display = "block";  
-              dots[slideIndex-1].className += " active";
-              setTimeout(showSlides, 5000); // Change image every 2 seconds
-            }
-    </script>
 </body>
 </html>

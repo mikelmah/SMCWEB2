@@ -6,7 +6,7 @@
 }
 .content {
   padding: 5px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
  }
  .center {
    text-align: center;
@@ -30,6 +30,7 @@ ul {
 
 /* text and fonts*/
 h1 {
+  font-family: 'Baloo Da', cursive;
   margin:5%;
   text-align: center;
 }
@@ -37,9 +38,21 @@ h1 {
   margin:5%;
 }
 h3 {
+  color: rgb(11, 150, 192);
+  font-family: 'Baloo Da', cursive;
   text-align: center;
 }
-
+h2 {
+  font-family: 'Baloo Da', cursive;
+  text-align: center;
+  color: rgb(11, 150, 192);
+}
+.title {
+  color: white;
+  font-family: 'Baloo Da', cursive;
+  font-size: 50px;
+  margin: 0px;
+}
 .footer {
   background-color: rgb(11, 150, 192);
 }
@@ -89,7 +102,7 @@ h3 {
   display: inline-block;
   font-size: 16px;
   font-style: italic;
-  margin: 4px 2px;
+  margin: 26px 2px 4px;
   cursor: pointer;
   border-radius: 50%;
 }
